@@ -35,7 +35,8 @@ body
     height: 100vh;
     background-image: var(--background), url(../Assets/img2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-attachment: fixed;
     background-position: center;
     position: relative;
 
@@ -76,10 +77,7 @@ body
     color: #fff;
 }
 
-.header .container
-{
-    padding: 0;
-}
+
 
 .navigation
 {
