@@ -34,7 +34,7 @@ body
 
 .header{
     height: 100vh;
-    background-image: var(--background) , url(../Assets/img2.jpg);
+    background-image: linear-gradient(120deg, rgba(9, 136, 143, 0.5) 0%, rgba(57, 112, 190, 0.671) 100%), url(../Assets/img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
