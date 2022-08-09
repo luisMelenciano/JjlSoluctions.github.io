@@ -522,7 +522,7 @@ body
     .navigation__items
     {
         margin-top: 30px;
-        margin-right: 0;
+        margin-right: 18px;
         text-align: center;
         font-size: 16px;
     }
@@ -554,7 +554,7 @@ body
     .about__picture
     {
         width: 380px;
-        height: 320px;
+        height: 300px;
 
     }
     .tabla
@@ -565,6 +565,7 @@ body
     {
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
 
     .img__galery
