@@ -34,7 +34,7 @@ body
 .header{
     height: 100vh;
     width: 100%;
-    background-image:  var(--background), url(/Assets/img2.jpg);
+    background-image:  var(--background), url("../Assets/img2.jpg");
     background-size:cover;
     background-attachment: fixed;
     position: relative;
@@ -82,7 +82,6 @@ body
 {
     display: flex;
     justify-content: flex-end;
-    height: 70px;
     align-items: center;
     font-weight: 700;
 }
