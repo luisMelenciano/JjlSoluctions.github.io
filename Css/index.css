@@ -446,6 +446,12 @@ body
     {
       --boton-pading: 10px 20px;
     }
+
+    .header
+    {
+        max-width: 900px;
+    }
+
     .header__title
     {
         font-size: 2.4rem;
@@ -540,11 +546,7 @@ body
 {
     .header
     {
-        width: 50%;
-        background-size:cover;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
+        max-width: 500px;
     }
 
     .header__title
