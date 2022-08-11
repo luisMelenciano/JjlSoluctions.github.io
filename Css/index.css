@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200;1,400&family=Open+Sans:wght@300;400;500;700&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,300;1,700&display=swap');
 
 :root{
-    --background: linear-gradient(135deg, #081f8656 0%, #2034e633 100%);
+    --background: -webkit-linear-gradient(135deg, #081f8656 0%, #2034e633 100%);
     --color-primary: #667eea;
     --color-secundary: #764ba2;
     --boton-pading: 20px 40px;
@@ -34,7 +34,7 @@ body
 .header{
     height: 100vh;
     width: 100%;
-    background-image:  -webkit-linear-gradient((135deg, #081f8656 0%, #2034e633 100%),url(../Assets/img2.jpg));
+    background-image:  var(--background), url(../Assets/img2.jpg);
     background-size:cover;
     background-attachment: fixed;
     position: relative;
