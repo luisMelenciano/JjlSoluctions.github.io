@@ -34,7 +34,6 @@ body
 .header{
     height: 100vh;
     background-image:  var(--background), url('../Assets/img2.jpg');
-    background-size:cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
