@@ -34,7 +34,7 @@ body
 .header{
     height: 100vh;
     width: 100%;
-    background-image:   linear-gradient(135deg, #081f8656 0%, #2034e633 100%), url(../Assets/img2.jpg);
+    background-image:  -webkit-linear-gradient((135deg, #081f8656 0%, #2034e633 100%),url(../Assets/img2.jpg));
     background-size:cover;
     background-attachment: fixed;
     position: relative;
